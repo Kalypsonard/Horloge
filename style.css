@@ -1,0 +1,125 @@
+#time-based-style {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #AB886D, #493628);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#say-hi{
+    font-size: 4rem;
+}
+
+#time-display {
+    font-size: 6rem;
+}
+
+.aurore {
+    background: linear-gradient(to bottom, #F5F5F7, #B7B7B7);
+    #postcard {
+        position: relative;
+        z-index: 1;
+        width: 200px; /
+        height: 150px; 
+        margin: 20px auto; 
+        padding: 10px;
+        border: 3px solid #fff; 
+        border-radius: 15px; 
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #postcard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+}
+
+.matin {
+    background: linear-gradient(to bottom, #FCDC94, #DBB5B5);
+    #postcard {
+        position: relative;
+        z-index: 1;
+        width: 200px; /
+        height: 150px; 
+        margin: 20px auto; 
+        padding: 10px;
+        border: 3px solid #fff; 
+        border-radius: 15px; 
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #postcard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+}
+
+.apres-midi {   
+    background: linear-gradient(to bottom, #FFF2CC, #FFD966);
+    #postcard {
+        position: relative;
+        z-index: 1;
+        width: 200px; /
+        height: 150px; 
+        margin: 20px auto; 
+        padding: 10px;
+        border: 3px solid #fff;
+        border-radius: 15px; 
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #postcard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px; 
+    }
+}
+
+.soiree {
+    background: linear-gradient(to bottom, #F9F3CC, #BEADFA);
+    #postcard {
+        position: relative;
+        z-index: 1;
+        width: 200px; /
+        height: 150px; 
+        margin: 20px auto; 
+        padding: 10px;
+        border: 3px solid #fff;
+        border-radius: 15px; 
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #postcard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+}
+
+.nuit {
+    background: linear-gradient(to bottom, #DBB5B5, #987070);
+    #postcard {
+        position: relative;
+        z-index: 1;
+        width: 200px; /
+        height: 150px; 
+        margin: 20px auto; 
+        padding: 10px;
+        border: 3px solid #fff; 
+        border-radius: 15px; 
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #postcard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+}
+
